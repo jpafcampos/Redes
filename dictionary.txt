@@ -1,0 +1,7 @@
+car carro voiture
+cat gato chat
+dog cachorro chien
+house casa maison
+table mesa table
+wall parede mur
+window janela fenêtre

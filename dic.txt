@@ -1,0 +1,74 @@
+Antique	Antiguidade	Antique	Antiguo	antico	Antiquität	Antique	Antique
+April	abril	avril	abril	aprile	April	April	aprilo
+August	agosto	août	agosto	agosto	August	Agasti	augusto
+Banana	Banana	banane	Plátano	Banana	Banane	Ibhanana	banano
+Bean	Feijão	Haricot	Frijol	Fagiolo	Bohne	Bean	fabo
+Bed	Cama	Lit	Cama	Letto	Bett	Umbhede	lito
+Bird	Pássaro	Oiseau	Pájaro	Uccello	Vogel	Bird	birdo
+Book	Livro	Livre	Libro	Libro	Buch	Incwadi	Libro
+Bread	Pão	Pain	Un pan	Pane	Brot	isinkwa	pano
+Car	Carro	Voiture	Coche	Auto	Auto	car	auto
+Cat	Gato	Chat	Gato	Gatto	Katze	Ikati	kato
+Cheese	Queijo	Fromage	Queso	Formaggio	Käse	ushizi	fromago
+Chicken	Frango	poulet	Pollo	pollo	Hähnchen	Inyama yenkukhu	Kokido
+Child	Criança	Enfant	Niño	Bambino	Kind	ingane	infana
+Chocolate	Chocolate	Chocolat	Chocolate	Cioccolato	Schokolade	chocolate	Cokolado
+Coffee	Café	café	café	caffè	Kaffee	Ikhofi	kafo
+Computer	Computador	Ordinateur	Computadora	Computer	Computer	ikhompyutha	Komputila
+December	dezembro	décembre	diciembre	dicembre	Dezember	Disemba	decembro
+Dessert	Sobremesa	Dessert	Postre	Dolce	Dessert	zogwadule	deserto
+Dog	Cão	Chien	Perro	Cane	Hund	inja	hundo
+Egg	Ovo	Oeuf	Huevo	Uovo	Ei	egg	ovo
+Elderly	idoso	personne âgée	Mayor	anziano	Alten	Asebekhulile	maljunuloj
+Engineer	Engenheiro	Ingénieur	Ingeniero	Ingegnere	Ingenieur	unjiniyela	Ingeniero
+February	fevereiro	février	febrero	febbraio	Februar	Februwari	februaro
+Food	Comida	Aliments	Comida	Cibo	Essen	Ukudla	Mangajo
+Friday	Sexta-feira	Vendredi	viernes	Venerdì	Freitag	ULwesihlanu	vendredo
+Ghost	Fantasma	Fantôme	Fantasma	Fantasma	Geist	Ghost	fantomo
+Goal	Objetivo	Objectif	Gol	Obbiettivo	Tor	Igoli	celo
+Goat	Bode	Chèvre	Cabra	Capra	Ziege	imbuzi	kapro
+Ham	presunto	jambon	jamón	prosciutto	Schinken	itshweba	Ham
+Horse	Cavalo	Cheval	Caballo	Cavallo	Pferd	Ihhashi	cevalo
+Internet	Internet	l'Internet	Internet	Internet	Internet	Inthanethi	Interreto
+January	janeiro	janvier	enero	gennaio	Januar	Januwari	januaro
+Journal	Diário	Journal	diario	rivista	Tagebuch	Imizwa	Jurnalo
+July	Julho	juillet	julio	luglio	Juli	Julayi	julio
+June	Junho	juin	junio	giugno	Juni	Juni	junio
+Jupiter	Júpiter	Jupiter	Júpiter	Giove	Jupiter	Jupiter	Jupitero
+Justice	Justiça	Justice	Justicia	giustizia	Gerechtigkeit	Justice	justeco
+Kitchen	Cozinha	Cuisine	Cocina	Cucina	Küche	Ikhishi	kuirejo
+Love	Ame	Amour	Amor	Amore	Liebe	Uthando	Love
+March	Março	Mars	marzo	marzo	März	Mashi	marto
+May	Maio	Peut	Mayo	potrebbe	Kann	May	majo
+Milk	Leite	Lait	Leche	latte	Milch	Ubisi	Lakto
+Monday	Segunda-feira	Lundi	lunes	Lunedi	Montag	UMsombuluko	lundo
+Nap	Sesta	Sieste	Siesta	Pisolino	Nickerchen	isihlwathi	Dormeto
+Network	Rede	Réseau	Red	Rete	Netzwerk	Inethiwekhi	reto
+November	novembro	novembre	noviembre	novembre	November	Novemba	novembro
+October	Outubro	octobre	octubre	ottobre	Oktober	Okthoba	oktobro
+Old	Velho	Vieux	Antiguo	Vecchio	Alt	Old	Malnova
+Organic	Orgânico	Biologique	Orgánico	Biologico	organisch	Organic	organikaj
+Pants	calça	Un pantalon	Pantalones	Pantaloni	Hose	Pants	pantalono
+Pen	Caneta	Stylo	Bolígrafo	Penna	Stift	ipeni	plumo
+Picture	Cenário	Image	Imagen	Immagine	Bild	Isithombe	Bildon
+Poor	Pobre	Pauvre	Pobre	Povero	Arm	Abampofu	Kompatinda
+President	Presidente	Président	presidente	Presidente	Präsident	uMongameli	Prezidanto
+Question	Questão	Question	Pregunta	Domanda	Frage	umbuzo	demando
+Queue	Fila	Queue	Cola	Coda	Warteschlange	emugqeni we-	atendovico
+Rich	Rico	Riches	Rico	Ricco	Reich	Rich	ricaj
+Room	Sala	Pièce	Habitación	Camera	Zimmer	Igumbi	cambro
+Saturday	sábado	samedi	sábado	Sabato	Samstag	ngoMgqibelo	sabato
+Shirt	Camisa	Chemise	Camisa	Camicia	Hemd	shirt	cemizo
+Shower	Chuveiro	douche	Ducha	Doccia	Dusche	Shower	duson
+Soap	Sabonete	Savon	Jabón	Sapone	Seife	Soap	sapo
+Spider	Aranha	Araignée	Araña	Ragno	Spinne	spider	araneo
+Strawberry	morango	fraise	fresa	fragola	Erdbeere	ijikijolo	frago
+Sunday	domingo	dimanche	domingo	Domenica	Sonntag	ngeSonto	dimanco
+Thursday	quinta-feira	Jeudi	jueves	giovedi	Donnerstag	ULwesine	jaudo
+Toilet	Banheiro	Toilette	Baño	Gabinetto	Toilette	toilet	necesejo
+Tuesday	terça	Mardi	martes	martedì	Dienstag	ULwesibili	mardo
+Vacation	Período de férias	Vacances	Vacaciones	Vacanza	Urlaub	Iholide	Feriaj
+Water	agua	Eau	Agua	acqua	Wasser	Amanzi	Akvo
+Wednesday	quarta-feira	Mercredi	miércoles	mercoledì	Mittwoch	ULwesithathu	merkredon
+Young	Jovem	Jeune	Joven	Giovane	jung	Young	Juna
+Zenith	Zênite	Zénith	Cenit	Zenit	Zenit	Zenith	Zenito
