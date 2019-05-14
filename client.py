@@ -3,8 +3,8 @@ from socket import *
 serverName = 'servername'
 serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_STREAM)
-#clientSocket.connect( ('192.168.0.14', 8888) ) 
-clientSocket.connect( ('', 12007) )
+clientSocket.connect( ('200.238.235.45', 8888) ) 
+#clientSocket.connect( ('', 12007) )
 
 fim = 0;
 while(fim == 0):
@@ -17,7 +17,11 @@ while(fim == 0):
 	print(l2)
 	clientSocket.send(l2.encode())
 	traducao = clientSocket.recv(1024).decode()
-	print ('Traducao:', traducao)
+	print('recebido')
+	if traducao == "erro":
+		print('Palavra não encontrada. Tente novamente.')
+	else: 
+		print ('Traducao:', traducao)
 	
 	ans = input('Deseja continuar? (s/n) ')
 	if(ans == "n"):
