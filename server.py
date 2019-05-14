@@ -1,11 +1,12 @@
+#encoding:utf-8
 from socket import *
 import numpy as np
 
 #funcao que traduz a palavra "word" para a lingua desejada
 def translate (word, language_1, language_2):
     #traduz "word" da "language1" para a "language2"
-
-    dic = open('dicio.txt', 'r', encoding = "utf8")
+    word = word.lower()
+    dic = open('dicio2.txt', 'r', encoding = "utf8")
     if language_1 == "en":
         l1 = 0
     elif language_1 == "pt":
@@ -40,7 +41,6 @@ def translate (word, language_1, language_2):
     elif language_2 == "eo":
         l2 = 7
 
-
     en = []
     pt = []
     fr = []
@@ -62,10 +62,19 @@ def translate (word, language_1, language_2):
         eo.append(colunas[7]) #eo
 
     matrix = np.array([en,pt,fr, es, it, de, zu, eo])
-
+    print("aqui")
+    print(matrix[1][4]) #feijao
+    #print(matrix)
     position = 0
-    w = word
+
+    indice = list(matrix[l1]).index(word)
+    traducao = matrix[l2][indice]
+    return traducao
+
+    '''
+    print(w)
     if w in matrix[l1]:
+        print(w)
         for position, name in enumerate(matrix[l1]):
             if name == w:
                 p = position
@@ -74,14 +83,16 @@ def translate (word, language_1, language_2):
     else:
         notFound = 1
         return 'Palavra não encontrada. Tente novamente.'
+        print(matrix[l2][p])
     
     return matrix[l2][p]
+'''
 #fim "translate"
 
 serverPort = 12000
 serverSocket = socket(AF_INET, SOCK_STREAM)
-serverSocket.bind ( ('192.168.0.14', 8888) )
-#serverSocket.bind ( ('', 1234) )
+#serverSocket.bind ( ('192.168.0.14', 8888) )
+serverSocket.bind ( ('', 12007) )
 serverSocket.listen(1)
 
 print ('Servidor pronto')
@@ -93,6 +104,7 @@ while 1:
     l1 = connectionSocket.recv(1024).decode()
     print(l1)
     l2 = connectionSocket.recv(1024).decode()
+    print(l2)
     traducao = translate(palavra, l1, l2)
     connectionSocket.send(traducao.encode())
     ans = connectionSocket.recv(1024).decode()
