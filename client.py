@@ -3,7 +3,7 @@ from socket import *
 serverName = 'servername'
 serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_STREAM)
-clientSocket.connect( ('200.238.235.45', 8888) ) 
+clientSocket.connect( ('172.22.121.100', 8888) ) 
 #clientSocket.connect( ('', 12007) )
 
 fim = 0;

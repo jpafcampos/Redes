@@ -94,14 +94,15 @@ def translate (word, language_1, language_2):
 
 serverPort = 12000
 serverSocket = socket(AF_INET, SOCK_STREAM)
-serverSocket.bind ( ('200.238.235.45', 8888) )
+serverSocket.bind ( ('172.22.121.100', 8888) )
 #serverSocket.bind ( ('', 12007) )
 serverSocket.listen(1)
 
 print ('Servidor pronto')
 
-while 1:
-    connectionSocket, addr = serverSocket.accept()
+fim = 0
+connectionSocket, addr = serverSocket.accept()
+while fim == 0:
     palavra = connectionSocket.recv(1024).decode()
     print(palavra)
     l1 = connectionSocket.recv(1024).decode()
@@ -115,4 +116,5 @@ while 1:
     print('sent')
     ans = connectionSocket.recv(1024).decode()
     if ans == "n":
+        fim = 1
         connectionSocket.close()
