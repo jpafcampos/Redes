@@ -62,12 +62,15 @@ def translate (word, language_1, language_2):
         eo.append(colunas[7]) #eo
 
     matrix = np.array([en,pt,fr, es, it, de, zu, eo])
-    print("aqui")
-    print(matrix[1][4]) #feijao
+
     #print(matrix)
     position = 0
 
-    indice = list(matrix[l1]).index(word)
+    indice = list(matrix[l1]).index(word) if word in matrix[l1] else -1
+    if indice == -1:
+        print(indice)
+        return "erro"
+
     traducao = matrix[l2][indice]
     return traducao
 
@@ -91,8 +94,8 @@ def translate (word, language_1, language_2):
 
 serverPort = 12000
 serverSocket = socket(AF_INET, SOCK_STREAM)
-#serverSocket.bind ( ('192.168.0.14', 8888) )
-serverSocket.bind ( ('', 12007) )
+serverSocket.bind ( ('200.238.235.45', 8888) )
+#serverSocket.bind ( ('', 12007) )
 serverSocket.listen(1)
 
 print ('Servidor pronto')
@@ -105,8 +108,11 @@ while 1:
     print(l1)
     l2 = connectionSocket.recv(1024).decode()
     print(l2)
+    
     traducao = translate(palavra, l1, l2)
+    print(traducao)
     connectionSocket.send(traducao.encode())
+    print('sent')
     ans = connectionSocket.recv(1024).decode()
     if ans == "n":
         connectionSocket.close()
